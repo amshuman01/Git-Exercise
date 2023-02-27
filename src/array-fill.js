@@ -10,6 +10,8 @@ export default fill
  * @param {*} value - The value to prefill
  * @return {Array} - The prefilled array
  */
+
+//This is array-fill function
 function fill(array, value) {
   return Array.apply(null, array).map(value.constructor.prototype.valueOf, value)
 }
